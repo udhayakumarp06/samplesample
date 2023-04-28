@@ -15,7 +15,7 @@ const items =[
     {items:"andriod", cost:9500},
     {items:"windows", cost:10200}
 ];
-listitems=items.filter(function(value)
+listitems=items.filter(function(value)                          
 {
     return value.cost<=12000;
 });
