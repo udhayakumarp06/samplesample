@@ -9,3 +9,9 @@ let final = people.map(function(value){
        return obj;
 });
 console.log(final);
+
+const dailyroutine = ["wakeup", "eat", "sleep"];
+
+   dailyroutine.forEach(routine =>{
+    console.log(routine);
+   });
